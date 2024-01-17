@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+
+<body>
+
+    <div class="user-profile">
+        <h1>Profile of {{user.role}}</h1>
+        <h3><a href="/api/users/logout">Logout</a></h3>
+        <p>Email: {{user.email}}</p>
+    </div>
+
+    <a href="/inicio">
+        <h2>Back to Home</h2>
+    </a>
+
+    <a href="/api/products">
+        <h2>Go to All Products</h2>
+    </a>
+
+</body>
+
+</html>
